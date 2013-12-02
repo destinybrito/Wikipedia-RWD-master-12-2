@@ -2,29 +2,30 @@
 .container {
 	background: #FCC;
 	margin: 0 auto;
-	width: 960px;
+	width: 95%; /*960px*/
+	max-width: 95% /*960px*/
 	}
 nav {
 		background: #9C9;
-		width: 960px;
+		width: 100%;/*960px÷960px=100%*/
 	}
 	
 article {
 		background: #3CF;
 		Float: left;
-		width: 640px;
+		width: 66.6666666%;/*640px÷960px=66.6666666666%*/
 	}
 	
 aside {
 	background: #6FC;
 	float: left;
-	width: 320px;
+	width: 33.33333333%;/*320px÷960px=33.333333333333%*/
 	}
 
 footer {
 	background: #99F;
 	clear: both;
-	width: 960px;
+	width: 100%; /*960px÷960px=100%*/
 	}
 	
 /*==================
@@ -35,22 +36,49 @@ h1 {
 	font-size: 3em;/*48px÷16px=3em*/
 	}
 h2 {
-	font-size: 2.25em;/*36px÷16px=2em*/
+	font-size: 2.25em;/*36px÷16px=2.25em*/
 	}	
 h3 {
 	font-size: 1.5em; /*24px÷16px=1.5em*/
 	}
+p {
+	font-size: 1.25m: /*20p÷16px=1.25em*/
+	}	
+/*ALl Links*/
+a {
+	color: #F00;
+	}
+footer a {
+	font-size: 1em;/*20px÷20px=1em*/
+	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+/*==================
+	DESKTOP
+====================*/	
+@media screen and (max-width: 1024px) {
+	body {
+		background: red;
+		}
+	}
+	/*end of desktop*/
+/*==================
+	TABLET
+====================*/	
+@media screen and (max-width: 768px) {
+	body {
+		background: green;
+		}
+	}
+/*end of tablet*/	
+/*==================
+	PHONE
+====================*/		
+@media screen and (max-width: 480px) {
+	body {
+	background: blue;	
+		}
+	}	
+/*end of phone*/	
 	
 	
 	
